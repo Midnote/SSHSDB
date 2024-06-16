@@ -91,6 +91,7 @@ char *student_menu(account_t *acc) {
     SP(tmp, c + (w + 1) * 15, "5. Get points");
     SP(tmp, c + (w + 1) * 16, "6. Change password");
     SP(tmp, c + (w + 1) * 17, "7. Check spreadsheet");
+    SP(tmp, c + (w + 1) * 18, "8. Write a proposal");
 
     return c;
 }
