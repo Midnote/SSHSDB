@@ -141,7 +141,7 @@ void delete_oldest_proposal()
 
 /// @brief Scan a student's proposal and save it in proposals[] and "proposals.txt"
 /// @param acc Pointer to account structure (student)
-void scan_proposal(account_t *acc)
+void write_proposal(account_t *acc)
 {
     load_proposals_from_file(); // Load proposals from file
 
